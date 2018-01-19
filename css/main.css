@@ -1,5 +1,5 @@
 body {
-    background-color: slategray;
+    background: linear-gradient(to right, rgb(3, 202, 252), greenyellow);
 }
 nav ul {
     list-style-type: none;
@@ -23,9 +23,8 @@ nav li a {
     color: white;
     text-align: center;
     padding: 14px 16px;
-    background-color: #dddddd;
     text-decoration: none;
 }
 nav li a:hover {
-    background-color: #111;
+    background-color: rgb(56, 53, 80);
 }
