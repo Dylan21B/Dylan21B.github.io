@@ -45,3 +45,14 @@ nav li a:hover {
     max-width: 55%;
     height: auto;
 }
+
+flexContainer {
+    display: flex;
+    flex-wrap: wrap;
+    height: 400px;
+}
+
+
+.blogCard {
+
+}
