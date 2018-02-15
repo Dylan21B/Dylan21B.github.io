@@ -1,0 +1,40 @@
+{
+    "blogPosts":[
+      {
+          "week": "Week 1",
+          "date": "Jan 2-5",
+          "content": "Today was the first day of class! I met my fellow classmates and teachers, and began to get the ropes of NSS. I used git.hub for the first time today, and it was scary. Looking forward to a great six months."
+      },
+      {
+        "week": "Week 2",
+        "date": "Jan 8-12",
+        "content": "Week 2 started off with alot of design ellements. We learned about personas, MVP, and how to Frame the Challange. We also started our first group project based on the personas we created. My group finnished the website amognst the snow days."
+    },
+    {
+        "week": "Week 3",
+        "date": "Jan 15-19",
+        "content": "Week three was cut in half by snow days. We began Monday by presenting our first group project. We worked on Critiquing and Heuristics, how and how not to provide useful feedback. We finnished the week and i feel comfertable with HTML and CSS."
+    },
+    {
+        "week": "Week 4",
+        "date": "Jan 22-26",
+        "content": "JavaScript work started this week and I am slowly building my knowladge in it. We also started Monday off by creating new groups and redesigning the company website. I mainly focused on the JavaScript shopping cart page for our website."
+    },
+    {
+        "week": "Week 5",
+        "date": "Jan 29- Feb 2",
+        "content": "We started off this week with design elements like page layout and typography. Type is always interesting, and also a very importiant element of design. We also had a small group project (happy numbers) with some javascript and math."
+    },
+    {
+        "week": "Week 6",
+        "date": "Feb 5-9",
+        "content": "This week we learned about alot of larger concepts such as JSON files and Browserify. We started the week off with a 24 hour challange with translating in JavaScript. After that, we started our biggest project yet. My group built a functioning chat application using JavaScript and JSON files."
+    },
+    {
+        "week": "Week 7",
+        "date": "Feb 12-16",
+        "content": "We started this week off by finnishing our group project chat application. We covered more design aspects such as Journey Mapping and Information Architecture. We started also mastering JSON and then we started looking into FireBase and APIs."
+    }
+
+    ]
+}
