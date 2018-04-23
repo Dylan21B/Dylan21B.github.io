@@ -23,7 +23,13 @@ function showData(taco){
     for(item in taco){
         console.log("item",item);
         let blogItem = taco[item];
-         messagesData += `<div class="col-3" id="blogContainer"><h3> ${blogItem.week}:</h3><h4> ${blogItem.date}: </h4> <p> ${blogItem.content}</p></div>`
+         messagesData += `<div class="col-3" id="blogContainer">
+         <nav class="blogNav">
+           <h3> ${blogItem.week}:</h3>
+           <h4> ${blogItem.date}: </h4>
+         </nav>
+          <p class="blogP"> ${blogItem.content}</p>
+          </div>`
     };
     blogDiv.innerHTML = messagesData;
     console.log("some messages for you :)")

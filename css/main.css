@@ -59,13 +59,45 @@ flexContainer {
     flex-wrap: wrap;
     height: 400px;
 }
+.projectArticle{
+    background-color: rgb(160, 160, 160);
+    border-style: solid;
+     border-radius: 15px;
+     border-color: black;
+}
+#rightAlign{
+    vertical-align: middle;
+    margin-bottom: -500px;
 
+}
+#capstone1logo{
+    height:480px;
+    width: 480px;
+}
+
+.blogNav{
+    background-color: rgb(51, 51, 51);
+    text-align: center;
+    padding: 15px;
+}
+#projectOverveiw{
+    padding: 15px;
+}
+.userImg{
+    height: 100%;
+    width: 80%;
+    margin: 15px;
+    padding: 15px;
+}
 #blogContainer{
-     background-color: whitesmoke;
+     background-color: gray;
+     color: whitesmoke;
      border-style: solid;
      border-radius: 15px;
      border-color: black;
      padding: 15px;
      margin: 15px;
 }
-
+.blogP{
+    font-size: 1.5em;
+}
