@@ -13,6 +13,14 @@ body {
 body {
     background: linear-gradient(to right, rgb(3, 202, 252), greenyellow);
 }
+
+.pageHeaders{
+    background: linear-gradient(to right, rgb(0, 132, 255), rgb(3, 202, 252), greenyellow);
+    font-size: 2em;
+    padding: 15px;
+
+}
+
 nav ul {
     list-style-type: none;
     margin: 0;
@@ -52,7 +60,12 @@ flexContainer {
     height: 400px;
 }
 
-
-.blogCard {
-
+#blogContainer{
+     background-color: whitesmoke;
+     border-style: solid;
+     border-radius: 15px;
+     border-color: black;
+     padding: 15px;
+     margin: 15px;
 }
+
