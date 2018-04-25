@@ -1,6 +1,9 @@
 body {
     font-family: "Times New Roman", Times, serif;
 }
+body, html {
+    height: 100%;
+}
 
 .nav-wrapper {
     background-image: url("/images/blueBox2.jpg");
@@ -38,7 +41,61 @@ body {
 body {
     background: linear-gradient(to right, rgb(3, 202, 252), greenyellow);
 }
+.parallax {
+    /* The image used */
+    background-image: url('/images/Nashville-Skyline-1.jpg');
 
+    /* Full height */
+    height: 80%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax2 {
+    /* The image used */
+    background-image: url('/images/yellowstone.jpg');
+
+    /* Full height */
+    height: 80%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax3 {
+    /* The image used */
+    background-image: url('/images/skyline.jpg');
+
+    /* Full height */
+    height: 80%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax p {
+    font-size: 24px;
+    color:#f5f5f5;
+    text-align: center;
+    line-height: 60px;
+
+
+    }
+.parallax h1 {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 60px;
+    text-align: center;
+    padding-top: 60px;
+    line-height: 100px;
+    padding-top: 200px;
+    }
 .pageHeaders{
     background: linear-gradient(to right, rgb(0, 132, 255), rgb(3, 202, 252), greenyellow);
     font-size: 2em;
