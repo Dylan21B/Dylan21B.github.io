@@ -10,16 +10,14 @@
 </head>
 <body>
         <header class="nav-wrapper">
-                <nav class="nav-header align-left">
-                    <a href="#home"> <span class="border" id="nav-header-logo" style="background-color:transparent; color: #00f90c;"> DDB</span></a>
+                <nav class="nav-header align-left" >
+                    <a href="#home"> <span id="nav-header-logo" style="background-color:transparent; color: #ffffff;"> DDB</span></a>
           
-                    <!-- <a href="#aboutMe" class="nav-header-item" >ABOUT ME</a> -->
                       
                     <a href="resume.html" class="nav-header-item">EXPERIENCE</a>
-                    <a href="contacts.html" class="nav-header-item">CONTACT</a> 
+                    <a href="#contacts" class="nav-header-item">CONTACT</a> 
                     <a href="projects.html" class="nav-header-item">PORTFOLIO</a> 
                     <a href="aboutme.html" class="nav-header-item"> BLOG </a> 
-                    <!-- <a href="#contact" class="nav-header-item">CONTACT ME</a>  -->
         
                 </nav>
             </header> 
@@ -27,7 +25,8 @@
     <!--////// start parallax scrolling  /////////////////////   -->
         <div class="parallax">
                 <h1 class="display-3">Hi, im Dylan!</h1>
-                <p class="lead">I am a UI/ UX Designer and Developer.</p>
+                <h4 class="lead">I am a Front-End Developer + UI/ UX Designer and Photographer.</h4>
+                <div class="paraContainer"></div>
         </div>
 
     <header class="heading">
@@ -36,35 +35,86 @@
         </nav>
     </header>
     <h2>My Story</h2>
-    <p> Hello! My name is Dylan Butzler and I was proudly born and raised in Nashville, TN. I first became interested in computers when I was a young man. I was introduced to Adobe Photoshop when I was a sophmore in High School, and it quickly became 
+    <p class="aboutMe"> Hello! My name is Dylan Butzler and I was proudly born and raised in Nashville, TN. I first became interested in computers when I was a young man. I was introduced to Adobe Photoshop when I was a sophmore in High School, and it quickly became 
         my favorite class. My teacher and mentor, Joe Burlingame, taught me the ins and outs of Photoshop and really helped me grasp the main concepts. I still have much
         to learn in terms of Photoshop, but i continue to learn and grow my skills. My teacher was also the one who introduced me to HTML and CSS. After High School, I worked and attended college until 
-        I found Nashville Software Scool. I was imiediatly drawn to the challenge and skills that NSS had to offer. I now attend NSS and I am loving evry second of it. I stil have alot to learn and 
+        I found Nashville Software Scool. I was imiediatly drawn to the challenge and skills that NSS had to offer. I now attend NSS and I am loving evry second of it. I still have alot to learn and 
         open to any new knowledge.   </p>
 
 <div id="hello1"></div>
 
-<div class="parallax2"></div>
+<div class="parallax2">
+    <h1 class="display-3">A New Wave in Design and Development</h1>
+</div>
 
 <nav class="pageHeaders">
         <h1>How to Contact Me</h1>
     </nav>
-<section>
+    <div class="row">
+<section class="col-3">
 <p>Phone: 615-429-8069</p>
 </section>
 
-<section> 
+<section class="col-3"> 
 <p>Email: giglett21@gmail.com</p>
 </section>
 
-<section>
+<section class="col-3">
 <p>LinkedIn: <a href="https://www.linkedin.com/in/david-dylan-butzler-2191b5156/">Dylan21B</a></p>
 </section>
 
-<section>
+<section class="col-3">
 <p>GitHub: <a href="https://github.com/Dylan21B">Dylan21B</a></p>
 </section>
+</div>
+
 <div class="parallax3"></div>
+
+<nav class="pageHeaders">
+    <h1>My Projects:</h1>
+</nav>
+
+<article class="container">
+
+<div class="row">
+
+<h2 class="col-12">NSS Capstones:</h2>
+
+<div class="col-6">
+<img id="capstone1logo" src="/images/Artboard1.svg" alt="Delivery App Pro">
+</div>
+<div id="rightAlign"class="col-6">
+<h3>Delivery App Pro</h3>
+</div>
+
+<div id="projectOverveiw" class="col-12">
+<h3>Project Overveiw</h3>
+<p>
+        I want to build an application that will replace the current delivery system at my work (Ace Hardware). The current procedure for a delivery is to fill out all the data on a delivery slip and then place it in a stack in the office. I want to modernize this procedure and eliminate some of the room for human error. This will prevent slips from getting lost, or forgetting about the delivery completely! (This happened once.) By using the app, the user will have all info displayed in an organized manner with data readily available. They will be able to create and update deliveries on the fly. Simplicity of the app will be one of my main focuses. 
+</p>
+<h5>Check out my GitHub Project <a href="https://github.com/Dylan21B/capstone-delivery">Here</a></h5>
+
+<h4>Challenge Statement</h4>
+<p>How might we…<br>
+        Help the business create, edit, and stay on track of store deliveries, by making an app that will modernize their current paper system.
+        </p>
+</div>
+<div class="col-12">
+ <img class="userImg" src="/images/Capturemore.PNG" alt="user Persona 1">
+</div>
+<div class="col-12">
+    <img class="userImg" src="/images/Capture12.PNG" alt="user Persona 2">
+</div>
+<div class="col-12">
+    <img class="userImg" src="/images/CaptureMap.PNG" alt="site Map">
+</div>
+</div>
+</article>
+
+</article>
+
+<div class="parallax">
+
 
 
         <script src="main.js"></script>
