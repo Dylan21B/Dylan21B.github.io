@@ -45,7 +45,7 @@ body, html {
 
 
 body {
-    background: linear-gradient(to right, rgb(3, 202, 252), greenyellow);
+    background-color: lightgray;
 }
 .parallax {
     /* The image used */
@@ -60,32 +60,8 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
-.parallax2 {
-    /* The image used */
-    background-image: url('/images/Glassy-giant-wave.jpg');
 
-    /* Full height */
-    height: 55%; 
 
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.parallax3 {
-    /* The image used */
-    background-image: url('/images/skyline.jpg');
-
-    /* Full height */
-    height: 80%; 
-
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 .parallax h4 {
     font-size: 24px;
     color:rgb(255, 255, 255);
@@ -101,22 +77,25 @@ body {
     line-height: 100px;
     padding-top: 400px;
     }
-    .parallax2 h1 {
-        color: rgba(255, 255, 255);
-        font-size: 60px;
-        text-align: center;
-        font-style: bold;
-        padding-top: 60px;
-        line-height: 100px;
-        padding-top: 200px;
-        }
-.pageHeaders{
-    background: linear-gradient(to right, rgb(0, 132, 255), rgb(3, 202, 252), greenyellow);
-    font-size: 2em;
-    padding: 15px;
 
+
+.introDiv{
+    height: 50rem;
 }
 
+.introContainer{
+    height: 35rem;
+    width: 56rem;
+    margin:100px;
+    background: linear-gradient(to top right,white, rgb(156, 229, 253),rgb(83, 172, 255));
+    box-shadow: 5px 10px 18px #888888;
+    -webkit-box-shadow: 0px 0px 60px rgba(0,0,0,0.75);
+}
+.pageHeaders{
+    background:lightgrey;
+    font-size: 2em;
+    padding: 15px;
+}
 
 .active {
     background-color: #4CAF50;
