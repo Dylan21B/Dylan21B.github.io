@@ -1,28 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans|Roboto');
+
 body {
     font-family: "Times New Roman", Times, serif;
+    background-image: url('/images/white.jpg');
+     height: 100%; 
+      background-attachment: fixed;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
 }
 body, html {
     height: 100%;
 }
 
 .nav-wrapper {
-    background-image: url("/images/blueBox2.jpg");
     min-height: 100px;
     width: 100%;
     height: 100px;
     overflow: hidden;
     padding-top: 2rem;
-    padding-bottom: 1.6rem;
+    padding-bottom: 1rem;
     position: fixed; 
     z-index: 100;
     top: 0;
     /* box-shadow: 0px 0px 50px  rgba(53, 71, 65, 0.797); */
-    box-shadow:8px 8px 50px black;  
-    background-size: cover;
+    /* box-shadow:8px 8px 50px black;  
+    background-size: cover; */
 }
 .nav-header {
-    color: rgb(105, 138, 127);
-    text-align: left;
+    color: rgb(0, 0, 0);
+    text-align: center;
     letter-spacing: .05rem;
     font-size: .8rem;
     padding: 0rem 3rem;
@@ -30,23 +37,29 @@ body, html {
 .nav-header-item {
     text-decoration: none;
     font-family: 'Raleway', sans-serif;
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 1rem;
     letter-spacing:.07rem;
     padding-right:1rem; 
     font-weight: 500;
 }
+#nav-header-logo{
+    border: solid rgb(0, 0, 0) 1.5px;
+    font-size: 1.5em;
+    padding: 7px;
+    margin: 10px;
+}
 
 
 body {
-    background: linear-gradient(to right, rgb(3, 202, 252), greenyellow);
+    background-color: lightgray;
 }
 .parallax {
     /* The image used */
-    background-image: url('/images/Nashville-Skyline-1.jpg');
+    background-image: url('/images/landscape.jpg');
 
     /* Full height */
-    height: 80%; 
+    height: 100%; 
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -54,55 +67,42 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
-.parallax2 {
-    /* The image used */
-    background-image: url('/images/yellowstone.jpg');
 
-    /* Full height */
-    height: 80%; 
 
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.parallax3 {
-    /* The image used */
-    background-image: url('/images/skyline.jpg');
-
-    /* Full height */
-    height: 80%; 
-
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.parallax p {
+.parallax h4 {
     font-size: 24px;
-    color:#f5f5f5;
+    color:rgb(255, 255, 255);
     text-align: center;
     line-height: 60px;
-
-
+    /* font-weight: bold; */
     }
 .parallax h1 {
-    color: rgba(255, 255, 255, 0.8);
+    color: rgba(255, 255, 255);
     font-size: 60px;
     text-align: center;
     padding-top: 60px;
     line-height: 100px;
-    padding-top: 200px;
+    padding-top: 400px;
     }
-.pageHeaders{
-    background: linear-gradient(to right, rgb(0, 132, 255), rgb(3, 202, 252), greenyellow);
-    font-size: 2em;
-    padding: 15px;
 
+
+.introDiv{
+    height: 50rem;
 }
 
+.introContainer{
+    height: 35rem;
+    width: 56rem;
+    margin:6rem;
+    background: linear-gradient(to top left,white, rgb(132, 222, 252),rgb(68, 162, 250));
+    box-shadow: 5px 10px 18px #888888;
+    -webkit-box-shadow: 0px 0px 60px rgba(0,0,0,0.75);
+}
+.pageHeaders{
+    background:lightgrey;
+    font-size: 2em;
+    padding: 15px;
+}
 
 .active {
     background-color: #4CAF50;
@@ -113,11 +113,6 @@ nav li a:hover {
     background-color: rgb(56, 53, 80);
 }
 
-
-#yellowstonePic {
-    max-width: 55%;
-    height: auto;
-}
 
 flexContainer {
     display: flex;
@@ -165,4 +160,35 @@ flexContainer {
 }
 .blogP{
     font-size: 1.5em;
+}
+.aboutMe{
+    padding: 2rem 10rem;
+    font-size: 1.25em;
+}
+.paraContainer{
+    border-bottom: white solid 2px;
+    margin: 0% 30%;
+}
+.headShot{
+    margin-top: 6rem;
+    height: 25rem;
+}
+.rightSide{
+    float: right;
+}
+.introText{
+    color: white;
+    font-size: 5rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
+.leftSide{
+    margin: 1rem;
+}
+.startHere{
+    justify-content: center;
+    height: 3rem;
+    width: 6rem;
+    background-color: black;
+    color: white;
 }
