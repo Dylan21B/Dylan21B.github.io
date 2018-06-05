@@ -192,3 +192,19 @@ flexContainer {
     background-color: black;
     color: white;
 }
+.contact{
+    color: black;
+}
+.contactLeft{
+    margin-left: 4rem;
+}
+.allContacts{
+    padding-bottom: 30px;
+}
+.bottomContainer{
+    background-color: rgb(37, 37, 37);
+    color:  white;
+}
+/* #fab{
+    height: 6rem;
+} */
