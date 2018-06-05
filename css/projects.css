@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans|Roboto|Syncopate|Open+Sans');
+
+.box{
+    display: flex;
+    justify-content: center;
+    background-color: blue;
+    height: 25rem;
+    margin: 2rem;
+    box-shadow: 5px 10px 18px #888888;
+    -webkit-box-shadow: 0px 0px 60px rgba(0,0,0,0.75);
+}
+
+#box1{
+    background: linear-gradient(to top left,white, rgb(132, 222, 252),rgb(68, 162, 250)); 
+}
+
+#box2{
+    background: linear-gradient(to top right,white, rgb(132, 222, 252),rgb(68, 162, 250));
+}
+.boxHead{
+    padding: 1rem;
+    color: white;
+    font-size: 3rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
