@@ -28,3 +28,75 @@
     font-family: 'Roboto', sans-serif;
     font-size: 1.4rem;
 }
+.appsContainer{
+    background-color: #313738;
+    height: 35rem;
+    width: 100%;
+    padding: 3.5em 0; 
+}
+.appImg{
+    height: auto;
+    width: 30rem;
+    margin: auto;
+}
+.desHeader{
+    color: white;
+    margin-bottom: 10px;
+    letter-spacing: 5px;
+    margin-left: -12rem;
+}
+.hightLight{
+    color: #00aeff;
+}
+.appDescription{
+    margin: auto; 
+}
+.appDescription ul {
+    padding-left: 0; 
+}
+.appDescription li {
+    color: #ffffff;
+    display: block;
+}
+.appDescription p {
+    font-size: 20px;
+    margin-bottom: 2em; 
+}
+.desButton{
+    background-color: transparent;
+  border: 2px solid #fcfcfc;
+  width: 100px;
+  margin: 0 1em;
+}
+.desButton:hover{
+    color: #00aeff;
+    border: 2px solid #00aeff;
+    transition: ease-in-out .4s;
+}
+.projectButton a {
+    text-decoration: none;
+    color: #fcfcfc !important;
+    letter-spacing: 2px;
+    display: block; 
+}
+
+.projectButton + a:hover {
+    color: white;
+    transition: ease-in-out .4s; 
+}
+.desDesc{
+    color: white;
+}
+.appHeader{
+    color: white;
+}
+.line{
+    margin: 1em 0 2em 0;
+  height: 4px;
+  width: 145px;
+  background-color: #3FC1FF;
+}
+.logoApp{
+    height:5rem;
+    margin-bottom: 2rem;
+}
