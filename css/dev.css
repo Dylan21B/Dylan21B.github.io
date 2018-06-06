@@ -1,0 +1,97 @@
+.devIntro{
+    display: flex;
+    justify-content: center;
+}
+.devContainer{
+    margin: 5rem;
+    background-color: rgb(250, 250, 250, .8);
+    border: 2px solid black;
+    height: 28rem;
+    width: 56rem; 
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+.devContainer:hover{
+    background-color: white;
+    box-shadow: 5px 10px 18px #5c5c5c;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    transform: scale(1.05);
+}
+.devHeader{
+    display: flex;
+    justify-content: center;
+}
+.devText{
+    display: flex;
+    justify-content: center;
+    padding: 4rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.4rem;
+}
+.appsContainer{
+    background-color: #313738;
+    height: 35rem;
+    width: 100%;
+    padding: 3.5em 0; 
+}
+.appImg{
+    height: auto;
+    width: 25rem;
+    margin: auto;
+}
+.devHeader{
+    color: white;
+    margin-bottom: 10px;
+    letter-spacing: 5px;
+}
+.hightLight{
+    color: #00aeff;
+}
+.appDescription{
+    margin: auto; 
+}
+.appDescription ul {
+    padding-left: 0; 
+}
+.appDescription li {
+    color: #ffffff;
+    display: block;
+}
+.appDescription p {
+    font-size: 20px;
+    margin-bottom: 2em; 
+}
+.devButton{
+    background-color: transparent;
+  border: 2px solid #fcfcfc;
+  width: 100px;
+  margin: 0 1em;
+}
+.devButton:hover{
+    color: #00aeff;
+    border: 2px solid #00aeff;
+    transition: ease-in-out .4s;
+}
+.projectButton a {
+    text-decoration: none;
+    color: #fcfcfc !important;
+    letter-spacing: 2px;
+    display: block; 
+}
+
+.projectButton + a:hover {
+    color: white;
+    transition: ease-in-out .4s; 
+}
+.devDesc{
+    color: white;
+}
+.appHeader{
+    color: white;
+}
+.line{
+    margin: 1em 0 2em 0;
+  height: 4px;
+  width: 145px;
+  background-color: #3FC1FF;
+}

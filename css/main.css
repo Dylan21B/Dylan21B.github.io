@@ -235,8 +235,12 @@ flexContainer {
     padding-bottom: 30px;
 }
 .bottomContainer{
-    background-color: rgb(37, 37, 37);
+    background-color: #313738;
     color:  white;
+}
+.filter{
+    height: 5rem !important;
+    margin: 2rem;
 }
 /* #fab{
     height: 6rem;
