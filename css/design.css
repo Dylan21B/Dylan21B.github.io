@@ -17,9 +17,10 @@
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
     transform: scale(1.05);
 }
-.desHeader{
+.desHead{
     display: flex;
     justify-content: center;
+    color: black;
 }
 .desText{
     display: flex;
@@ -99,4 +100,7 @@
 .logoApp{
     height:5rem;
     margin-bottom: 2rem;
+}
+.italic{
+    font-style: italic;
 }
