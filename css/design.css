@@ -18,14 +18,16 @@
     transform: scale(1.05);
 }
 .desHead{
+    padding: 1rem;
     display: flex;
     justify-content: center;
     color: black;
+    font-family: 'Roboto', sans-serif;
 }
 .desText{
     display: flex;
     justify-content: center;
-    padding: 4rem;
+    padding: .5rem;
     font-family: 'Roboto', sans-serif;
     font-size: 1.4rem;
 }
@@ -103,4 +105,14 @@
 }
 .italic{
     font-style: italic;
+}
+.desDescription{
+    margin: 1rem 4rem;
+    border-top: solid 1px black;
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.4rem;
+    line-height: 2rem;
 }
