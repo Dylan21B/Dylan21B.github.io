@@ -1,0 +1,15 @@
+#aboutContainer{
+    padding-top: 1rem;
+    margin-top: 3rem; 
+    justify-content: center;
+}
+.aboutLeft{
+    background: red;
+    float: left;
+    margin: 1rem;
+}
+.aboutRight{
+    float: right;
+    background: blue;
+    margin: 1rem;
+}
