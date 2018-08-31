@@ -1,0 +1,18 @@
+#aboutContainer{
+    margin-top: 5rem; 
+    background-image: url('/images/wave.jpg');
+    height: 100%;
+    background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+.aboutLeft{
+    background: red;
+    float: left;
+    margin: 1rem;
+}
+.aboutRight{
+    float: right;
+    background: blue;
+    margin: 1rem;
+}
