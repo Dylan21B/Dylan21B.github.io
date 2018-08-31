@@ -1,7 +1,10 @@
 #aboutContainer{
-    padding-top: 1rem;
-    margin-top: 3rem; 
-    justify-content: center;
+    margin-top: 5rem; 
+    background-image: url('/images/wave.jpg');
+    height: 100%;
+    background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
 }
 .aboutLeft{
     background: red;
